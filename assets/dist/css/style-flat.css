@@ -1,0 +1,94 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 29, 2016, 9:19:02 AM
+    Author     : nihacoding.com
+*/
+.header{
+    padding-right: 0px;
+    padding-left: 0px;
+} 
+.footer{
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-bottom: -50px;
+}
+
+.bg-smk{
+    background: url('../img/header/background1.jpg') no-repeat;
+    background-size: 100% auto;
+    width: 100%;
+    height: 180px;
+}
+.bg-smk .logo-doang{
+    height: 180px;
+    display: inline-block;
+}
+.logo-smk{
+    height: 150px;
+    margin-left: 20px;
+}
+.helper{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.smk-caption{
+    display: inline-block;
+    margin-left: 20px;
+}
+.smk-caption img{
+    height: 140px;
+}
+@media (max-width: 768px) {
+    .bg-smk{
+        background: url('../img/header/bg-768px-200px.png') no-repeat;
+        background-size: 100% auto;
+        height: 110px;
+    }
+    .bg-smk .logo-doang{
+        height: 110px;
+    }
+    .logo-smk{
+        height: 100px;
+        margin-left: 15px;
+    }
+    .smk-caption{
+        margin-left: 0px;
+    }
+    .smk-caption img{
+        height: 90px;
+    }
+}
+@media (max-width: 480px) {
+    .bg-smk{
+        background: url('../img/header/bg-430px-200px.png') no-repeat;
+        background-size: 100% auto;
+        height: 65px;
+    }
+    .bg-smk .logo-doang{
+        height: 65px;
+    }
+    .logo-smk{
+        height: 60px;
+        margin-left: 5px;
+    }
+    .smk-caption{
+        margin-left: 0px;
+    }
+    .smk-caption img{
+        height: 45px;
+    }
+}
+
+.smk-nama{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.page-header {
+  margin: 0px 0 20px;
+}
